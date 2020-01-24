@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        fromEvent:   './fromEvent/index.ts'
+        fromEvent:   './fromEvent/index.ts',
+        combineLatest: './combineLatest/index.ts'
     }, 
     output: {
         path: path.resolve(__dirname),
